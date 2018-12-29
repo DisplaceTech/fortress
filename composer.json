@@ -1,0 +1,32 @@
+{
+	"name"             : "displacetech/fortress",
+	"description"      : "Security extensions and configuration for WordPress.",
+	"version"          : "1.0.0",
+	"type"             : "wordpress-plugin",
+	"keywords"         : ["security", "firewall"],
+	"homepage"         : "https://github.com/DisplaceTech/fortress",
+	"license"          : "MIT",
+	"minimum-stability": "stable",
+	"authors"          : [
+		{
+			"name"    : "Eric Mann",
+			"email"   : "eric@eamann.com",
+			"homepage": "https://eamann.com",
+			"role"    : "Developer"
+		}
+	],
+	"require-dev"      : {
+		"phpunit/phpunit": "^7.5",
+		"php-coveralls/php-coveralls": "^2.1",
+		"squizlabs/php_codesniffer": "^3.4"
+	},
+	"require"          : {
+		"php": ">=7.2"
+	},
+	"autoload": {
+		"classmap": [
+		],
+		"files": [
+		]
+	}
+}
